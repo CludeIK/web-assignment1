@@ -1,0 +1,385 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#main-title {
+    text-align: center;
+    color: #2980b9;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #ecf0f1;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.navbar {
+    background-color: #34495e;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover, .external-link:hover {
+    color: #f39c12;
+}
+
+.external-link {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #2980b9;
+}
+
+.content-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+}
+
+/* ==========================
+   TASK 2: ВЕРСТКА НА FLOAT (LAYOUT)
+   ========================== */
+
+.layout-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.layout-container * {
+    box-sizing: border-box;
+}
+
+.layout-header {
+    background-color: #2980b9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #1c5980;
+}
+
+.layout-navbar {
+    background-color: #34495e;
+    padding: 15px;
+    text-align: center;
+}
+
+.layout-navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.layout-navbar a:hover {
+    color: #f39c12;
+}
+
+.layout-sidebar {
+    float: left;
+    width: 30%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    min-height: 300px;
+    border-right: 2px solid #bdc3c7;
+}
+
+.layout-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.layout-sidebar li {
+    margin-bottom: 10px;
+}
+
+.layout-sidebar a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.layout-sidebar a:hover {
+    color: #f39c12;
+}
+
+.layout-main {
+    float: right;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.layout-footer {
+    clear: both;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #1a252f;
+}
+
+/* ==========================
+   TASK 3: TRIBUTE PAGE STYLES
+   ========================== */
+
+.tribute-body {
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.tribute-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tribute-header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.tribute-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #bdc3c7;
+}
+
+.tribute-content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-family: 'Lora', serif;
+}
+
+.tribute-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.tribute-events, .tribute-contributions {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tribute-events {
+    list-style-type: decimal-leading-zero;
+}
+
+.tribute-contributions {
+    list-style-type: square;
+}
+
+.img-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tribute-img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px solid #ecf0f1;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1a5276;
+    color: white;
+}
+
+/* ==========================
+   TASK 4: TABLE AND FORM STYLES
+   ========================== */
+
+.task4-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#table-heading, #form-heading {
+    text-align: center;
+    color: #8e44ad;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border: 0;
+    height: 2px;
+    background-color: #ecf0f1;
+    margin: 40px 0;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+}
+
+.grades-table th {
+    background-color: #2980b9;
+    color: white;
+    font-size: 18px;
+}
+
+.grades-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.highlight-row {
+    background-color: #f1c40f !important;
+    font-weight: bold;
+}
+
+.merged-cell {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.feedback-form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #dcdde1;
+}
+
+.feedback-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-family: 'Arial', sans-serif;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+
+#submit-btn {
+    width: 100%;
+    background-color: #27ae60;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #219150;
+}
